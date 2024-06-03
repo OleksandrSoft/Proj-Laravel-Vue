@@ -7,7 +7,6 @@ Minimal Vue 3 application with router, i18n, pinia store.
 ```sh
 composer create-project laravel/laravel:^10.0 vue-app
 cd vue-app
-composer require atomjoy/vue
 ```
 
 ### Overwrite files
@@ -29,12 +28,12 @@ php artisan serve --host=localhost --port=8000
 The package is no longer needed.
 
 ```sh
-composer remove atomjoy/vue
+composer remove oleksandr/Proj-Laravel-Vue
 ```
 
 ## (DEV) Local repository import
 
-Package directory: packages/atomjoy/vue
+Package directory: packages/oleksandr/Proj-Laravel-Vue
 
 ### Laravel composer.json
 
@@ -42,10 +41,10 @@ Package directory: packages/atomjoy/vue
 {
     "repositories": [{
         "type": "path",
-        "url": "packages/atomjoy/vue"
+        "url": "packages/oleksandr/Proj-Laravel-Vue"
     }],
     "require": {
-        "atomjoy/vue": "dev-main"
+        "oleksandr/Proj-Laravel-Vue": "dev-main"
     },
 }
 ```
